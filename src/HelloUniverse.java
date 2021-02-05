@@ -6,7 +6,7 @@ public class HelloUniverse {
         phraseIntroduction="Il y a quelques années cependant, elles étaient au nombre de : ";
         System.out.println(nbPlanetes);
         System.out.println(phraseIntroduction);
-        nbPlanetes=9;
+        nbPlanetes++;
         System.out.println(nbPlanetes);
     }
 }
