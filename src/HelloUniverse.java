@@ -6,7 +6,7 @@ public class HelloUniverse {
         if (annee<2006){
             nbPlanetes=9;
         }
-        if (annee>=2006){
+        else{
             nbPlanetes=8;
         }
         System.out.printf(phraseIntroduction,annee,nbPlanetes);
